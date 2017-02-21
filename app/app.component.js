@@ -15,7 +15,8 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: '<div class="container"><div class="col-xs-3"><weather-widget></weather-widget></div></div>'
+            template: '<div class="container"><div class="col-xs-4"><weather-widget></weather-widget></div></div>',
+            styles: ['.container { padding-top: 5rem; }']
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);
