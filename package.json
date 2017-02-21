@@ -1,7 +1,7 @@
 {
-"name": "angular2-skeleton",
+"name": "weather-component",
 "version": "1.0.0",
-"description": "Rascal's Angular2 Skeleton",
+"description": "Reusable Weather Component",
 "scripts": {
     "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
     "lite": "lite-server",
@@ -23,7 +23,7 @@
     "@angular/platform-browser-dynamic": "2.1.2",
     "@angular/router": "3.1.2",
     "angular-in-memory-web-api": "0.1.13",
-    "bootstrap": "3.3.7",
+    "bootstrap": "4.0.0-alpha.6",
     "core-js": "2.4.1",
     "reflect-metadata": "0.1.8",
     "rxjs": "5.0.0-beta.12",
